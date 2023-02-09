@@ -1,0 +1,58 @@
+.grid{
+    background-image: url('background.png');
+    width:400px;
+    height:600px;
+    position: relative;
+    margin: 150px auto;
+    border-radius: 10%;
+    
+}
+
+.doodler{
+    width: 60px;
+    height: 85px;
+    background-image: url('doodler-guy.png');
+    position: absolute;
+}
+
+.platform{
+    background-image: url('platform.png');
+    width: 85px;
+    height: 15px;
+    position: absolute;
+    
+}
+
+.summary{
+    margin: 60px auto;
+    padding: 150px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: fantasy;
+    color: gray;
+}
+
+h1{
+    font-weight: bolder;
+    color: rgb(88, 87, 87);
+}
+
+.btn{
+    padding: 50px 0 10px;
+    margin:20px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 130px;
+    height: 60px;
+    font-size: large;
+    border-radius: 10%;
+    background-color: bisque;
+    border-color: aliceblue;
+    letter-spacing: 0.5px;
+}
